@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+max-width: 1450;
+padding: 0 15px;
+margin: 0 auto;
+font-family: Oswald;
+}
+
+.top-wrapper {
+    padding: 175px 0 100px 0;
+    background-image: url(https://raw.githubusercontent.com/Anandiaz/FirstWeb/main/BG%20b-aja.jpg);
+    background-size: cover;
+    text-align: center;
+    color:white;
+    height: 100%;
+    
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+}
+
+.top-wrapper h2 {
+    font-size: 35px;
+}
+
+.info-wrapper {
+    background-image: url(https://raw.githubusercontent.com/Anandiaz/FirstWeb/main/Rubik%20FHD.jpg);
+    background-size: cover;
+    height: 100%;    
+}
+.bagian {
+    padding:100px 0 ;
+    float: left;
+    color: white;
+    width: 25%;
+    height: 100%;
+    
+}
+.bagian img {
+    height: 73%;
+}
+
+.isi {
+    text-align: justify;
+    padding-bottom: 31px;
+    font-size: 24px;
+}
+
+.icon {
+    padding-left: 45px;
+}
+
+.quote {
+    font-family: Merriweather;
+}
